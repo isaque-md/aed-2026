@@ -8,10 +8,10 @@ public class asteriscos {
         int n = entrada.nextInt();
 
         // LAÇO EXTERNO: Controla as linhas
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n+1; i++) {
             
             // LAÇO INTERNO: Controla as colunas (asteriscos na mesma linha)
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n-1; j++) {
                 System.out.print("* "); // Usamos print() para ficarem lado a lado
             }
             
