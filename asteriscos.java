@@ -11,7 +11,8 @@ public class asteriscos {
         for (int i = 0; i < n+1; i++) {
             
             // LAÇO INTERNO: Controla as colunas (asteriscos na mesma linha)
-            for (int j = 0; j < n-1; j++) {
+            for (int j = 0; j < n-1; j++) 
+                {
                 System.out.print("* "); // Usamos print() para ficarem lado a lado
             }
             
